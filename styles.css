@@ -36,7 +36,27 @@ header h1 {
     margin: 0;
 }
 
+img[src$="cake.gif"] {
+    width: 300px; 
+    height: auto; 
+    display: block;
+    margin: 30px auto 0; 
+    border-radius: 10px; 
+}
+
+a i.fas.fa-arrow-right {
+    font-size: 30px; 
+    color: #333; 
+    margin-top: 30px;
+    transition: color 0.3s ease; 
+}
+
+a:hover i.fas.fa-arrow-right {
+    color: #f88809; 
+}
+
 footer {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -44,9 +64,4 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-
-footer p {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
 }
