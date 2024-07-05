@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wishes Generator</title>
+    <link rel="stylesheet" href="form_styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Birthday Wishes Generator</h1>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <form id="birthdayForm">
+                <div class="form-group">
+                    <label for="yourName">Your Name:</label>
+                    <input type="text" id="yourName" name="yourName" required>
+                </div>
+                <div class="form-group">
+                    <label for="buddyName">Birthday Buddy's Name:</label>
+                    <input type="text" id="buddyName" name="buddyName" required>
+                </div>
+                <div class="form-group">
+                    <label for="buddyAge">Birthday Buddy's Age:</label>
+                    <input type="number" id="buddyAge" name="buddyAge" min="1" max="150" required>
+                </div>
+                <div class="form-group">
+                    <label for="buddyPic">Upload Birthday Buddy's Picture:</label>
+                    <input type="file" id="buddyPic" name="buddyPic" accept="image/*" required>
+                </div>
+                <button type="submit">Generate Birthday Wish</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Birthday Wishes Generator. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="form_script.js"></script>
+</body>
+</html>

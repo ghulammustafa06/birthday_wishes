@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
