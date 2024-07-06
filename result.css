@@ -84,6 +84,15 @@ header h1 {
     margin: 10px 0;
 }
 
+.formName {
+    font-family: "Great Vibes", cursive;
+    color: #333;
+    font-size: 0.5rem;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
 button#downloadButton {
     background-color: #008cba;
     color: #fff;
@@ -129,4 +138,108 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* resposive adjustments  */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.6rem; 
+    }
+    .form-group input, .form-group label, button[type="submit"] {
+        font-size: 0.7rem; /* Adjust font size for readability */
+    }
+
+    .container {
+        padding: 15px; 
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group input, .form-group label, button[type="submit"] {
+        font-size: 0.8rem; 
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+
+    .tittle {
+        font-size: 1.5rem;
+    }
+
+    .wish-card h2 {
+        font-size: 1.5rem;
+    }
+
+    .wish-card p {
+        font-size: 0.8rem;
+    }
+
+    .formName {
+        font-size: 0.8rem;
+    }
+
+    button#downloadButton {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
+    button#shareButton {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; 
+    }
+    header h1 {
+        font-size: 1rem; 
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group input, .form-group label, button[type="submit"] {
+        font-size: 0.4rem; 
+    }
+
+    .card-content {
+        padding: 10px;
+    }
+
+    .tittle {
+        font-size: 1.2rem;
+    }
+
+    .wish-card h2 {
+        font-size: 1rem;
+    }
+
+    .wish-card p {
+        font-size: 0.6rem;
+    }
+
+    .formName {
+        font-size: 0.6rem;
+    }
+   
+    button#downloadButton {
+        padding: 5px 10px;
+        font-size: 0.6rem;
+    }
+
+    button#shareButton {
+        padding: 5px 10px;
+        font-size: 0.6rem;
+    }
+
+    footer {
+        font-size: 0.5rem;
+    }
 }
