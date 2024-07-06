@@ -22,6 +22,7 @@ document.getElementById('birthdayForm').addEventListener('submit', function(even
         // Store data in localStorage
         localStorage.setItem('buddyName', buddyName);
         localStorage.setItem('wishMessage', randomWish);
+        localStorage.setItem('yourName', yourName);
         localStorage.setItem('buddyPicUrl', e.target.result);
 
         // Redirect to the result page

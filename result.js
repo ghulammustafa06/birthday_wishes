@@ -4,11 +4,13 @@ window.onload = function() {
     let buddyName = localStorage.getItem('buddyName');
     let buddyPicUrl = localStorage.getItem('buddyPicUrl');
     let wishMessage = localStorage.getItem('wishMessage');
+    let yourName = localStorage.getItem('yourName');
 
     // Set the content of the wish card
     document.getElementById('buddyNameDisplay').innerText = buddyName;
     document.getElementById('wishMessageDisplay').innerText = wishMessage;
     document.getElementById('buddyImage').src = buddyPicUrl;
+    document.getElementById('yourNameDisplay').innerText = yourName;
 };
 
 // Function to download the wish card
